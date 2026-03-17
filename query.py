@@ -29,5 +29,5 @@ if __name__ == "__main__":
     for i, doc in enumerate(search_results['documents'][0]):
         #distance是相似度的一个指标，数值越小表示越相关
         distance = search_results['distances'][0][i]
-        print(f"\n[匹配项{i+1}] (相似度: {1 - distance:.4f})")
+        print(f"\n[匹配项{i+1}] (相似度: {distance:.4f})")
         print(f"内容：{doc}")
