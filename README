@@ -1,2 +1,6 @@
 uvicorn api:app --reload
 原型网址：http://127.0.0.1:8000/docs
+
+上下文
+
+.\venv\Scripts\Activate.ps1
